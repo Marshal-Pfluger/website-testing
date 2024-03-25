@@ -1,0 +1,42 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: var(--color-text);
+    font-family: var(--font-family);
+  }
+  
+  .bio h2 {
+    margin-bottom: 10px;
+    color: var(--color-text);
+  }
+  
+  .bio p {
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .skills h3,
+  .education h3 {
+    margin-bottom: 10px;
+    color: var(--color-text);
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .education p {
+    line-height: 1.6;
+    margin-bottom: 0;
+    color: #fff;
+  }
