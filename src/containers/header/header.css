@@ -1,0 +1,105 @@
+.marshalPfluger__header {
+    display: flex;
+}
+
+.marshalPfluger__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.marshalPfluger__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size:  62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.marshalPfluger__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size:  20px;
+    line-height: 27px;
+    color: #81AFDD;
+}
+
+.marshalPfluger__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.marshalPfluger__header-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.marshalPfluger__header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .marshalPfluger__header{
+        flex-direction: column;
+    }
+
+    .marshalPfluger__header-content{
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .marshalPfluger__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .marshalPfluger__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .marshalPfluger__header-content__people {
+        flex-direction: column;
+    }
+
+    .marshalPfluger__header-content__people {
+        margin: none;
+    }
+
+    .marshalPfluger__header-content__input input,
+    .marshalPfluger__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .marshalPfluger__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .marshalPfluger__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .marshalPfluger__header-content__input input,
+    .marshalPfluger__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
