@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Footer, Projects,  Skills, Resume, Header, About } from './containers';
-import { CTA, Navbar } from './components';
+import { Navbar } from './components';
 
 import './App.css';
 
