@@ -46,7 +46,7 @@
   margin-top: 0.5rem;
 }
 
-.marshalPfluger__about-feature img {
+.marshalPfluger__about img {
   max-width: 200px;
   max-height: 300px;
   border-radius: 10px;
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 850px) {
-  .marshalPfluger__about-heading {
+  .marshalPfluger__about {
       flex-direction: column;
       align-items: flex-start;
       margin-bottom: 0rem;
@@ -71,7 +71,10 @@
       flex-direction: column;
   }
 
-
+.marshalPfluger__about-feature img {
+  max-height: 100px;
+  max-width: 100px;
+}
   .marshalPfluger__about-feature .marshalPfluger__features-container_feature-text {
       margin-top: 0.5rem;
   }
