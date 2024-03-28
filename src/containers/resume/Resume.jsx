@@ -8,7 +8,7 @@ const Resume = () => {
       <div className='marshalPfluger__resume'>
         <h1>Resume</h1>
         <div className='marshalPfluger__resume-grid'>
-          <div className='resume-item' onClick={() => window.open('https://github.com/Marshal-Pfluger', '_blank')}>
+          <div className='resume-item' onClick={() => window.open('https://marshalpflugerresume.s3.amazonaws.com/resume.pdf', '_blank')}>
             <img src={resume} alt="resume" />
           </div>
         </div>

@@ -8,7 +8,6 @@ const About = () => (
   <div className="marshalPfluger__about section__margin" id="marshalPfluger">
     <img src={headshot} alt="headshot" />
     <div className="marshalPfluger__about-feature">
-      
       <AboutSection title="About Me" text=" I am a ambitious software developer with a passion for coding and a solid foundation in various languages and platforms. I am eager to learn and contribute to real-world software projects as a full-time employee or intern." />
     </div>
     <div className="marshalPfluger__about-container">
