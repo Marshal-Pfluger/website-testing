@@ -1,3 +1,4 @@
+/* Default styles */
 footer {
     display: flex;
     justify-content: center;
@@ -26,4 +27,18 @@ footer svg {
     width: 60%; /* Adjust icon size as needed */
     height: 60%; /* Adjust icon size as needed */
     fill: #000000;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    footer a,
+    footer button {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer svg {
+        width: 40%;
+        height: 40%;
+    }
 }
