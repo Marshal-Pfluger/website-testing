@@ -8,6 +8,7 @@
 
 .marshalPfluger__resume h1 {
     font-family: var(--font-family);
+    color: var(--color-text);
     text-align: center;
     font-weight: 800;
     font-size:  62px;
