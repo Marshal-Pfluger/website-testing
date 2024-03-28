@@ -1,44 +1,50 @@
 .contact-form-container {
+    font-family: var(--font-family);
     width: 100%;
     max-width: 60%;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background: var(--color-blog);
+    color: var(--color-text);
+    border-radius: 10px;
   }
-  
+
+  .contact-form-container h2 {
+    text-align: center;
+  }
+
   .contact-form {
     display: grid;
     gap: 10px;
   }
-  
+
   .form-group {
     display: grid;
     gap: 5px;
   }
-  
+
   label {
     font-weight: bold;
   }
-  
+
   input,
   textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 10px;
   }
-  
+
   button {
     padding: 10px;
-    background-color: #007bff;
+    background: #FF4820;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
-  
+
   button:hover {
-    background-color: #0056b3;
+    background-color: var(--color-text);
   }
-  

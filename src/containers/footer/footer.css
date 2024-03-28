@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background: var(--color-footer);
+}
+
+footer a,
+footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Adjust icon size as needed */
+    height: 80px; /* Adjust icon size as needed */
+    margin-right: 1rem;
+    background: #FF4820;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+footer a:hover,
+footer button:hover {
+    background-color: var(--color-text);
+}
+
+footer svg {
+    width: 60%; /* Adjust icon size as needed */
+    height: 60%; /* Adjust icon size as needed */
+    fill: #000000;
+}
