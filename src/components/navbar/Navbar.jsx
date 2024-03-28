@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="marshalPfluger__navbar-menu_container scale-up-center">
           <div className="marshalPfluger__navbar-menu_container-links">
             <p><Link to='home' smooth duration={200}>Home </Link></p>
-            <p><Link to='projects' smooth duration={200}>Home </Link></p>
+            <p><Link to='projects' smooth duration={200}>Projects </Link></p>
             <p><Link to="about" smooth duration={200}>About Me</Link></p>
             <p><Link to="resume" smooth duration={200}>Resume</Link></p>
             </div>
