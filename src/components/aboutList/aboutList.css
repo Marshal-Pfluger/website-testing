@@ -31,18 +31,24 @@
     margin-bottom: 0.5rem;
 }
 
-.marshalPfluger__features-container_feature-text {
+.marshalPfluger__features-container__feature-text {
     flex: 2;
     max-width: 800px;
     display: flex;
 }
 
-.marshalPfluger__features-container_feature-text p {
+.marshalPfluger__features-container__feature-text ul {
+    margin-top: 1rem;
+    list-style-type: disc;
+}
+
+.marshalPfluger__features-container__feature-text li {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: var(--color-text);
+    margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 550px) {
@@ -50,8 +56,6 @@
         font-size: 14px;
         line-height: 22px;
     }
-
-
 
     .marshalPfluger__features-container__feature {
         margin: 1rem 0;
