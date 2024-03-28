@@ -1,20 +1,20 @@
 import React, {useState} from 'react';
+import { Link } from 'react-scroll';
 import './navbar.css';
 import {RiMenu3Line, RiCloseLine} from  'react-icons/ri';
 import logo from '../../assets/logo.svg'
 
-const Menu = () => (
-  <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#projects">Projects</a></p>
-  <p><a href="#about">About me</a></p>
-  <p><a href="#resume">Resume</a></p>
-  </>
-)
+
 
 const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
   return (
     <div className="marshalPfluger__navbar">
@@ -23,11 +23,14 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="marshalPfluger__navbar-links_container">
-          <Menu />
+          <p><Link to="home" smooth duration={200}>Home </Link></p>
+          <p><Link to="projects" smooth duration={200}>Projects </Link></p>
+          <p><Link to="about" smooth duration={200}>About Me</Link></p>
+          <p><Link to="resume" smooth duration={200}>Resume</Link></p>
         </div>
       </div>
       <div className="marshalPfluger__navbar-sign">
-        <button type="button">Offer Feedback</button>
+        <button type="button" onClick={() => scrollToSection('contact')}>Offer Feedback</button>
       </div>
       <div className="marshalPfluger__navbar-menu">
         {toggleMenu
@@ -36,10 +39,10 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="marshalPfluger__navbar-menu_container scale-up-center">
           <div className="marshalPfluger__navbar-menu_container-links">
-            <Menu />
-            </div>
-            <div className="marshalPfluger__navbar-menu_container-links-sign">
-              <button type="button">Sign up</button>
+            <p><Link to='home' smooth duration={200}>Home </Link></p>
+            <p><Link to='projects' smooth duration={200}>Home </Link></p>
+            <p><Link to="about" smooth duration={200}>About Me</Link></p>
+            <p><Link to="resume" smooth duration={200}>Resume</Link></p>
             </div>
           </div>
         )}
