@@ -19,7 +19,7 @@ const Header = () => {
             .typeString("Its so nice to have you on my site, please take a look around.")
             .start();
           }}
-          options={{ delay: 30, // Adjust the delay between each character (typing speed)
+          options={{ delay: 30, // (typing speed)
         }}
         />
         </h1>
