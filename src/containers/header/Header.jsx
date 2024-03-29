@@ -16,7 +16,7 @@ const Header = () => {
             .typeString("Hello, My name is Marshal Pfluger.")
             .pauseFor(1000)
             .deleteAll()
-            .typeString("Its so nice to have you on my site, please take a look around.")
+            .typeString("It's so nice to have you on my site, please take a look around.")
             .start();
           }}
           options={{ delay: 30, // (typing speed)
