@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import code from '../../assets/code.png'
+import fork_icon from '../../assets/fork_icon.png'
 import Typewriter from "typewriter-effect";
 
 
@@ -26,7 +26,7 @@ const Header = () => {
       <p>If you have any advice please use the "Offer Feedback" button. I am always open to learning more and growing my skills.</p>
       </div>
         <div className="marshalPfluger__header-img">
-          <img src={code} alt="code" />
+          <img src={fork_icon} alt="fork_icon" />
         </div>
       </div>
   )

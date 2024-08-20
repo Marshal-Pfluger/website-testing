@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 import './navbar.css';
 import {RiMenu3Line, RiCloseLine} from  'react-icons/ri';
-import logo from '../../assets/logo.svg'
+import logo2 from '../../assets/logo2.svg'
 
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="marshalPfluger__navbar">
       <div className="marshalPfluger__navbar-links">
         <div className="marshalPfluger__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={logo2} alt="logo2" />
         </div>
         <div className="marshalPfluger__navbar-links_container">
           <p><Link to="home" smooth duration={200}>Home </Link></p>

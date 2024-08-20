@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="gradient__bg">
+        <div className="backbone">
           <Navbar />
         <div id="home">
           <Header />
@@ -26,6 +27,7 @@ const App = () => {
         <Contact />
         </div>
       <Footer />
+      </div>
       </div>
     </div>
   )
